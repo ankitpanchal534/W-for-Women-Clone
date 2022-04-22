@@ -1,0 +1,34 @@
+
+.heading-line{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px ridge;
+    padding: 13px;
+width: 100%;
+}
+.heading-line select{
+
+   border: none;
+}
+select{
+    padding: 5px;
+}
+
+.product-page{
+display: block;
+  width: 100%;
+    margin-top: 20px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    justify-content: space-between;
+    margin-right: 2%;
+}

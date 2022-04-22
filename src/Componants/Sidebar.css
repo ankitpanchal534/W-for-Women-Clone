@@ -1,0 +1,20 @@
+.filter{
+    /* border: 1px ridge; */
+    list-style-type: none;
+    width: 300px;
+    text-align: left;
+  
+
+}
+.filter li {
+    padding: 13px;
+    border: 1px ridge;
+    font-weight: 450;
+
+}
+.result-line{
+    border: 1px ridge;
+}
+.sidebar{
+    display: flex;
+}
