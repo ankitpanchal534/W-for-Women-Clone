@@ -3,20 +3,21 @@
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
-    padding-right: 30px;
     border: 1px ridge;
     padding: 13px;
-width: 100%;
+width: 94%;
 }
 .heading-line select{
-
+    margin-right: 1%;
    border: none;
+   
 }
 select{
     padding: 5px;
 }
 
-.product-page{
+.Product-page{
+  
 display: block;
   width: 100%;
     margin-top: 20px;
@@ -25,10 +26,3 @@ display: block;
     
 }
 
-.product-list{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-    justify-content: space-between;
-    margin-right: 2%;
-}
