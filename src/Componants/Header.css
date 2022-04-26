@@ -49,10 +49,11 @@ padding-top: 10px;
 }
 ul.item-list li:hover{
 color: darkred;
+
 }
 .hidden-box{
     display: none;
-    width: 200px;
+    width: 9%;
     background-color: black;
     opacity: 60%;
     text-align: left;
@@ -63,4 +64,8 @@ color: darkred;
     position: absolute;
    
     color: azure;
+}
+.hidden-box li:hover{
+text-decoration: underline;
+
 }

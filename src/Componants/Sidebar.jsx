@@ -10,25 +10,109 @@ export default function () {
 
             <ul className='filter'> 
             <li><b>   FILTER</b></li>
-<li>Category &#9662;</li>
+<li><details >  
+  <summary> 
+  Category
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
 <li><img src='https://wforwoman.com/images/plus_size_Horizontal.png' alt='plus size banner'  style={{width:"280px"}}/>
 </li>
-<li> Price&#9662; </li>
-<li>Size  &#9662;</li>
-<li>  Discount &#9662;</li>
-<li>  Colour &#9662;</li>
-<li>  Material &#9662;</li>
-<li> Neck-type  &#9662;</li>
-<li> Sleeves &#9662;</li>
-<li> Occasion &#9662;</li>
-<li>  Length &#9662;</li>
-<li> Pattern &#9662; </li>
-<li> Toe Type &#9662;</li>
-<li> Toe Shape &#9662;</li>
-<li> Heel Type &#9662;</li>
-<li>Closure  &#9662;</li>
-<li> Formulation &#9662;</li>
-<li> Coverage &#9662;</li>
+<li>
+<details >  
+  <summary> 
+  Price
+  </summary>
+  <input type="checkbox" />Loading...
+  </details></li>
+<li><details >  
+  <summary> 
+  Size
+  </summary>
+  <input type="checkbox" />Loading...
+  </details></li>
+<li>  <details >  
+  <summary> 
+  Discount
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li>  <details >  
+  <summary> 
+  Colour
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li>  <details >  
+  <summary> 
+  Meterial
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li><details >  
+  <summary> 
+  Neck-Type
+  </summary>
+  <input type="checkbox" />Loading...
+  </details>  </li>
+<li> <details >  
+  <summary> 
+  Sleeves
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li> <details >  
+  <summary> 
+  Occation
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li>  <details >  
+  <summary> 
+  Length
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li><details >  
+  <summary> 
+  Pattern
+  </summary>
+  <input type="checkbox" />Loading...
+  </details>  </li>
+<li> <details >  
+  <summary> 
+  Toe-type
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li> <details >  
+  <summary> 
+  Toe-Shape
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li> <details >  
+  <summary> 
+  Heel Size
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li><details >  
+  <summary> 
+Closure  </summary>
+  <input type="checkbox" />Loading...
+  </details>  </li>
+<li> <details >  
+  <summary> 
+Formulation  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
+<li> <details >  
+  <summary> 
+  Coverage
+  </summary>
+  <input type="checkbox" />Loading...
+  </details> </li>
 
 
 
