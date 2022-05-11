@@ -1,9 +1,0 @@
-.product-list{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-    justify-content: space-between;
-    margin-right: 2%;
-    text-align: left;
-    padding: 1m;
-}
