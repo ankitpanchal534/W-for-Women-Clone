@@ -1,10 +1,24 @@
-import React from 'react'
-import Posts from './Posts'
+import React from 'react';
+import Header from './Componants/Header';
+import './App.css';
+import Sidebar from './Componants/Sidebar';
+// import Product from './Componants/Product';
 
-export default function App() {
+
+// or less ideally
+
+
+function App() {
   return (
-    <div>
-      <Posts />
-    </div>
-  )
+    <div className="App">
+      
+<Header />
+<Sidebar />
+
+
+
+   </div>
+  );
 }
+
+export default App;

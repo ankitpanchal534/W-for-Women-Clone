@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    height: 85px;
+    justify-content: space-between;
+    border: 1px ridge;
+    padding: 5px;
+}
+.search-box{
+    display: flex;
+    margin-top: 20px;
+/* padding: 20px; */
+height: 30px;
+padding: 5px;
+border: 2px ridge;
+border-radius: 5px;
+width: 400px;
+
+}
+#input-box{
+padding: 5px;
+font-size: 18px;
+background-color: transparent;
+outline: none;
+border: none;
+width: 80%;
+
+
+}
+.cart-login{
+    padding: 20px;
+display: flex;
+
+margin-right: 20px;
+padding-top: 30px;
+
+}
+ul.item-list{
+    display: flex;
+  padding: 10px;
+list-style-type: none;
+}
+ul.item-list li{
+    padding-right: 8px;
+    font-weight: 700;
+    font-size: small;
+padding-top: 10px;
+
+
+}
+ul.item-list li:hover{
+color: darkred;
+
+}
+.hidden-box{
+    display: none;
+    width: 9%;
+    background-color: black;
+    opacity: 60%;
+    text-align: left;
+    padding: 15px;
+}
+.li-new-in:hover .hidden-box{
+    display: block;
+    position: absolute;
+   
+    color: azure;
+}
+.hidden-box li:hover{
+text-decoration: underline;
+
+}
